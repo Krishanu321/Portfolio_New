@@ -75,8 +75,8 @@ const HeroSection = () => {
 
   const handleDownloadCV = () => {
     const link = document.createElement('a');
-    link.href = './public/Krishanu Santra_Resume.pdf';
-    link.download = './public/Krishanu Santra_Resume.pdf';
+    link.href = '/Krishanu Santra_Resume.pdf';
+    link.download = '/Krishanu Santra_Resume.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
